@@ -1,0 +1,39 @@
+  body {
+  font-family: comic sans ms; verdana, sans-serif;
+  font-size: 18px;
+  background-color: rgb(167, 255, 255);
+  background-image: url("../elementos/wallpapers/papel1.jpg");
+  text-align: center; 
+  background-size: contain;
+}
+    
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 400px;
+  }
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px;
+  font-family: comic sans ms; verdana, sans-serif;
+  font-weight: bold;
+}
+
+p , ol li{
+  background-color: bisque;
+}

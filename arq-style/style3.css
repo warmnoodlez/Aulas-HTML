@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     background-color: rgb(191, 109, 230);
     text-align: center;
+    background-image: url("paper.gif");
   }
       
   ol {
@@ -23,4 +24,11 @@ body {
     img {
       width: 400px;
     }
+  }
+
+  button {
+    border-radius: 5px;
+    padding: 8px;
+    font-family: comic sans ms; verdana, sans-serif;
+    font-weight: bold;
   }

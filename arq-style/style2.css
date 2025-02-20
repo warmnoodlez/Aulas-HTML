@@ -1,18 +1,19 @@
-  body {
+body {
   font-family: comic sans ms; verdana, sans-serif;
   font-size: 18px;
-  background-color: rgb(167, 255, 255);
+  background-color: rgb(255, 210, 217);
   text-align: center;
+  background-image: url("paper.gif");
 }
-    
+
 ol {
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 ul {
   display: inline-block;
-  text-align: left;
+  text-align: center;
 }
 
 li {
@@ -23,4 +24,11 @@ li {
   img {
     width: 400px;
   }
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px;
+  font-family: comic sans ms; verdana, sans-serif;
+  font-weight: bold;
 }
