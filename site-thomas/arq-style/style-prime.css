@@ -1,0 +1,52 @@
+  body {
+  font-family: comic sans ms; verdana, sans-serif;
+  font-size: 18px;
+  background-color: rgb(167, 255, 255);
+  background-image: url("../elementos/wallpapers/papel1.jpg");
+  text-align: center; 
+  background-size: contain;
+}
+    
+ol {
+  text-align: left;
+  background-color: bisque;
+
+}
+
+ul {
+  text-align: left;
+  background-color: bisque;
+}
+
+li {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 400px;
+  }
+}
+
+button {
+  border-radius: 5px;
+  padding: 8px;
+  font-family: comic sans ms; verdana, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  background-color: bisque;
+  padding: 10px;
+  display: inline-block;
+}
+
+hr {
+  width: 50%;
+  border-style: dashed;
+}
+
+h1, h2, h3 {
+  background-color: aquamarine;
+  display: inline-block;
+}

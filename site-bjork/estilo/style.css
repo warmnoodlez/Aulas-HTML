@@ -1,0 +1,81 @@
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: salmon;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;siz
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    background-color: blueviolet;
+    display: flex;
+    padding: 10px;
+}
+
+.headline {
+    display: flex;
+    justify-items: center;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.principal .chamada {
+    margin: 5px;
+}
+
+.artigos {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.artigos .secao {
+    background-color: blue;
+    color: white 
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 20px; 
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    margin: 15px;
+    margin-bottom: 15px;
+    box-sizing: 1;
+}
