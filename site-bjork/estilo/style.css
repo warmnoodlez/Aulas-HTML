@@ -6,12 +6,22 @@ body, ul, li, p {
     font-family: Arial;
 }
 
+
+body {
+background-color: #ffffc3;
+}
+
 a {
     text-decoration: none;
 }
 
+img {
+    width: 300px;
+    height: 300px;
+}
+
 .cabecalho {
-    background-color: salmon;
+    background-color: #e8d493;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -28,14 +38,21 @@ a {
 }
 
 .menu li a {
-    background-color: blueviolet;
+    background-color: #d1a963;
     display: flex;
     padding: 10px;
+    border-radius: 10px 20px;
+
 }
 
 .headline {
     display: flex;
     justify-items: center;
+    gap: 60px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 40px;
 }
 
 .principal {
@@ -44,8 +61,10 @@ a {
     justify-self: center;
     align-items: center;
     padding: 20px;
-    background-color: aqua;
+    background-color: #d1a963;
     flex-direction: column;
+    border-radius: 20px 20px;
+    margin-bottom: 5%;
 }
 
 .principal .chamada {
@@ -66,16 +85,14 @@ a {
     color: white 
 }
 
-img {
-    width: 300px;
-    height: 300px;
-    margin: 20px; 
+.logo {
+    width: 25%;
+    height: 25%;
+    margin: 15px;
+    margin-bottom: 10px;
+    box-sizing: 1;
 }
 
-.logo {
-    width: 20%;
-    height: 20%;
-    margin: 15px;
-    margin-bottom: 15px;
-    box-sizing: 1;
+.cor {
+    color: #000000;
 }
