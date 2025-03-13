@@ -8,7 +8,7 @@ body, ul, li, p {
 
 
 body {
-background-color: #ffffc3;
+background-color: #fffec7;
 }
 
 a {
@@ -21,7 +21,7 @@ img {
 }
 
 .cabecalho {
-    background-color: #e8d493;
+    background-color: #c5c490;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,7 +38,7 @@ img {
 }
 
 .menu li a {
-    background-color: #d1a963;
+    background-color: #e2e1ab;
     display: flex;
     padding: 10px;
     border-radius: 10px 20px;
@@ -49,10 +49,17 @@ img {
     display: flex;
     justify-items: center;
     gap: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     margin-left: 40px;
-    margin-top: 60px;
     margin-right: 40px;
+}
+
+.headlinetopo {
+    margin-top: 40px;
+}
+
+.headlinebase {
+    margin-bottom: 40px;
 }
 
 .principal {
@@ -61,9 +68,9 @@ img {
     justify-self: center;
     align-items: center;
     padding: 20px;
-    background-color: #d1a963;
+    background-color: #a8a874;
     flex-direction: column;
-    border-radius: 20px 20px;
+    border-radius: 10px 30px;
     margin-bottom: 5%;
 }
 
