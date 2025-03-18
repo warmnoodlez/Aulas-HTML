@@ -24,9 +24,9 @@ img {
     background-color: #c5c490;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-bottom: 0px;siz
+    padding-bottom: 0px;
 }
 
 .menu {
@@ -52,6 +52,34 @@ img {
     margin-bottom: 55px;
     margin-left: 40px;
     margin-right: 40px;
+    position: relative;
+}
+
+.album {
+    opacity: 1;
+    transition: 0.5s ease;
+    position: relative;
+}
+.album:hover{
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.albumlogoesq {
+    position: absolute;
+    opacity: 1;
+}
+
+.albumlogomeio {
+    position: absolute;
+    opacity: 1;
+    left: 360px;
+}
+
+.albumlogodir {
+    position: absolute;
+    opacity: 1;
+    left: 720px;
 }
 
 .headlinetopo {
