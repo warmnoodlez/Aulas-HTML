@@ -131,3 +131,27 @@ img {
 .cor {
     color: #000000;
 }
+.controle-sobre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.texto {
+    text-align: justify;
+    width: 100%;
+
+}
+
+.bjork {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-height: 1500px;
