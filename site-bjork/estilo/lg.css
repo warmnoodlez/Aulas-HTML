@@ -1,0 +1,20 @@
+.menu li a {
+    background-color: brown;
+}
+
+.principal {
+    background-color: blueviolet;
+}
+
+.cabecalho {
+    background-color: blanchedalmond;
+}
+
+.title {
+    background-color: aquamarine;
+}
+
+.album:hover{
+    opacity: 0.3;
+    transition: 0.3s;
+}
