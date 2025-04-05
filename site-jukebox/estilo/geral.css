@@ -141,13 +141,21 @@ img {
     width: 100%;
 }
 
-.bjork {
+.sobre{
+    display: flex;
+    border-radius: 10px 20px;
+    padding: 15px;
+    text-align: justify;
+}
+
+.foto {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     max-height: 1500px;
     margin-bottom: 100px;
     margin-top: 50px;
+    border-radius: 50%;
 }
 
 .title {
