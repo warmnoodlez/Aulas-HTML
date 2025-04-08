@@ -15,7 +15,8 @@
 }
 
 body {
-    background-color: #c2ebbd;
+    background-image: url(../imgs/wpp-pcp.jpg);
+    background-size: cover;
 }
 
 .sobre {
