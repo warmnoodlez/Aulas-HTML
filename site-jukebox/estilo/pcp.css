@@ -1,0 +1,27 @@
+.menu li a {
+    background-color: #dcf5d5;
+}
+
+.principal {
+    background-color: #a9e0a4;
+}
+
+.cabecalho {
+    background-color: #8fd68b;
+}
+
+.title {
+    background-color: #a9e0a4;
+}
+
+body {
+    background-color: #c2ebbd;
+}
+
+.sobre {
+    background-color: #a9e0a4;
+}
+
+img {
+    padding: 2%;
+}
