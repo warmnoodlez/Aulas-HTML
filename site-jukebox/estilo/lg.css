@@ -1,17 +1,17 @@
 .menu li a {
-    background-color: brown;
+    background-color: #E6D3D2;
 }
 
 .principal {
-    background-color: blueviolet;
+    background-color: #E6D3D2;
 }
 
 .cabecalho {
-    background-color: blanchedalmond;
+    background-color: #E2B6B8;
 }
 
 .title {
-    background-color: aquamarine;
+    background-color: #E2B6B8;
 }
 
 .album:hover{
@@ -20,5 +20,11 @@
 }
 
 .sobre {
-    background-color: aquamarine;
+    background-color: #E6D3D2;
+}
+
+body {
+    background-image: url(../imgs/lgimgs/gagawpp.png); 
+    background-repeat: no-repeat; 
+    background-size:cover;
 }
